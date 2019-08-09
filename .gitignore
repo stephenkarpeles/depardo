@@ -1,0 +1,10 @@
+# ignore everything in the root except the "wp-content" directory
+/*
+!wp-content/
+!favicon.ico
+
+# track this file .gitignore (i.e. do NOT ignore it)
+!.gitignore
+
+# track readme.md in the root (i.e. do NOT ignore it)
+!readme.md
