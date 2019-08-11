@@ -8,3 +8,6 @@
 
 # track readme.md in the root (i.e. do NOT ignore it)
 !readme.md
+
+# ignore files that start with .
+.*
