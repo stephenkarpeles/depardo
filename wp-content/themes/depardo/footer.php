@@ -13,21 +13,17 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'depardo' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'depardo' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'depardo' ), 'depardo', '<a href="http://stephenkarpeles.com/">Stephen Karpeles</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+	<footer class="footer">
+		<div class="container">
+			<div class="grid">
+				<div class="col col--1-4"><p>test</p></div>
+				<div class="col col--1-4"><p>test</p></div>
+				<div class="col col--1-4"><p>test</p></div>
+				<div class="col col--1-4"><p>test</p></div>					
+				</div>
+			</div>
+		</div>
+	</footer>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

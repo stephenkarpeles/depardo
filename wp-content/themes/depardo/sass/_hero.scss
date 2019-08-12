@@ -1,0 +1,16 @@
+.hero {
+  background-size: cover;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+
+  &__title {
+    font-size: 3rem;
+  }
+
+  &__copy {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 20rem;
+  }
+}
