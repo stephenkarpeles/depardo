@@ -5,7 +5,7 @@
 @import 'utilities';
 
 // Foundational
-// @import 'base';
+@import 'base';
 @import 'typography';
 // @import 'buttons';
 // @import 'forms';
@@ -13,9 +13,7 @@
 // Layout
 @import 'grid';
 @import 'layout';
-
-// Theme
-// @import 'header';
+@import 'header';
 @import 'footer';
 
 // Components

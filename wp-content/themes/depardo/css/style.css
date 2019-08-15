@@ -24,6 +24,18 @@
 .text-centered {
   text-align: center; }
 
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+img,
+video {
+  display: block;
+  max-width: 100%; }
+
 h1,
 h2,
 h3,
@@ -56,6 +68,12 @@ section {
   margin: 0 auto;
   width: 90%;
   max-width: 1120px; }
+
+.header {
+  background: red; }
+  .header .container {
+    display: flex;
+    justify-content: space-between; }
 
 .footer {
   background: #e6e7e8; }
