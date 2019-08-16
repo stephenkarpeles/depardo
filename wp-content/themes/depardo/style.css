@@ -144,37 +144,6 @@ sup {
 }
 
 /*--------------------------------------------------------------
-## Menus
---------------------------------------------------------------*/
-.main-navigation {
-	display: block;
-}
-
-.main-navigation ul {
-	display: none;
-}
-
-.main-navigation a {
-	display: block;
-	text-decoration: none;
-}
-
-/* Small menu. */
-.menu-toggle,
-.main-navigation.toggled ul {
-	display: block;
-}
-
-@media screen and (min-width: 37.5em) {
-	.menu-toggle {
-		display: none;
-	}
-	.main-navigation ul {
-		display: block;
-	}
-}
-
-/*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
 /* Text meant only for screen readers. */

@@ -25,9 +25,15 @@ get_header();
         <section>
           <div class="container">
             <div class="grid text-centered">
-              <div class="col col--1-3">Testing</div>
-              <div class="col col--1-3">Testing</div>
-              <div class="col col--1-3">Testing</div>
+              <div class="col col--1-3">
+                <h3>Is your business performing the way you had imagined?</h3>
+              </div>
+              <div class="col col--1-3">
+                <h3>Are you well-positioned for the future?</h3>
+              </div>
+              <div class="col col--1-3">
+                <h3>Are your people reaching their maximum potential?</h3>
+              </div>
             </div>
           </div>
         </section>

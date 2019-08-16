@@ -1,8 +1,75 @@
 .header {
-  background: red;
-  
+  background: transparent;
+  height: $header-height;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   .container {
     display: flex;
     justify-content: space-between;
+    max-width: 50%;
+  }
+
+  &__menu {
+    color: white;
+
+    li {
+      &:first-child:before {
+        content: '/';
+        display: inline-block;
+        margin-right: 1rem;
+      }
+    }
+
+    a {
+      color: white;
+
+      &:after {
+        content: '/';
+        display: inline-block;
+        margin-left: 1rem;
+      }
+    }
+  }
+}
+
+.main-navigation {
+  display: block;
+}
+
+.main-navigation ul {
+  display: none;
+}
+
+.main-navigation li {
+  list-style-type: none;
+  margin: 0 .5rem;
+}
+
+.main-navigation li:first-child {
+  margin-left: 0;
+}
+
+.main-navigation li:last-child {
+  margin-right: 0;
+}
+
+.main-navigation a {
+  text-decoration: none;
+}
+
+/* Small menu. */
+.menu-toggle,
+.main-navigation.toggled ul {
+  display: block;
+}
+
+@media screen and (min-width: 37.5em) {
+  .menu-toggle {
+    display: none;
+  }
+  .main-navigation ul {
+    display: flex;
   }
 }

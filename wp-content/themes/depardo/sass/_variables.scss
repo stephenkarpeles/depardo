@@ -1,10 +1,6 @@
 // Default Font Stacks
-$sans-serif-main: 'NeuzeitBook', Helvetica, Arial, sans-serif;
-$sans-serif-alt: 'BebasNeue', Georgia, sans-serif;
-
-// Alt Font Stacks
-$sans-serif-heavy: 'NeuzeitBookHeavy', Helvetica, Arial, sans-serif;
-
+$sans-serif: 'NeuzeitBook', Helvetica, Arial, sans-serif;
+$serif: 'BebasNeue', Georgia, sans-serif;
 // Colors
 $primary-color: rgba(229, 90, 56, 1); // orange
 $secondary-color: rbga(87, 182, 233, 1); // blue
@@ -30,6 +26,9 @@ $viewport-switch: calc(#{$container-max-width}/.9);
 // Admin Bar
 $wpadmin-bar-height: 32px;
 $wpadmin-bar-height-mobile: 46px;
+
+// Header 
+$header-height: 80px;
 
 // Keyframes
 @keyframes fade-in-1 {   
