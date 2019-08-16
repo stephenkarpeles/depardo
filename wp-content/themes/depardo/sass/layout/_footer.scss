@@ -1,6 +1,9 @@
 .footer {
   background: $quaternary-color;
   padding: 2.5em 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
 
   .col p:last-of-type {
     padding-bottom: 0;

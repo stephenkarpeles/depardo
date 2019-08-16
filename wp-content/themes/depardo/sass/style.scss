@@ -5,22 +5,24 @@
 @import 'utilities';
 
 // Foundational
-@import 'base';
-@import 'typography';
-// @import 'buttons';
+@import 'base/base';
+@import 'base/typography';
 // @import 'forms';
 
 // Layout
-@import 'grid';
-@import 'layout';
-@import 'header';
-@import 'footer';
+@import 'layout/grid';
+@import 'layout/layout';
+@import 'layout/header';
+@import 'layout/footer';
 
 // Components
-@import 'hero';
+@import 'components/featured-block';
+@import 'components/hero';
+@import 'components/icon-block';
+@import 'components/cta-block';
+@import 'components/buttons';
 // @import 'comments';
 // @import 'idea-block';
-// @import 'featured-block';
 // @import 'lead-magnet';
 // @import 'modal';
 // @import 'related-posts';

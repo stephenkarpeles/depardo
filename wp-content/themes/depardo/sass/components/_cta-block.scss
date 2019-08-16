@@ -1,0 +1,19 @@
+.cta-block {
+  background: $secondary-color;
+  color: white;
+  padding: 2em 0;
+
+  p:last-of-type {
+    padding-bottom: 0;
+  }
+
+  h4 {
+    padding-bottom: .5em;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

@@ -3,7 +3,7 @@ $sans-serif: 'NeuzeitBook', Helvetica, Arial, sans-serif;
 $serif: 'BebasNeue', Georgia, sans-serif;
 // Colors
 $primary-color: rgba(229, 90, 56, 1); // orange
-$secondary-color: rbga(87, 182, 233, 1); // blue
+$secondary-color: rgba(87, 182, 233, 1); // blue
 $tertiary-color: white;
 $quaternary-color: rgba(230, 231, 232, 1); // light gray
 
@@ -14,13 +14,14 @@ $text-color-mid-alt: #999999;
 
 // Grays
 $gray-main: rgba(88, 89, 91, 1);
+$gray-alt: rgba(109, 110, 113, 1);
 $gray-light-1: #efefef;
 $gray-light-2: #b4c5cf;
 
 // Layout
 $container-width: 90%;
-$container-max-width: 1120px;
-$section-padding: 3em 0;
+$container-max-width: 60rem;
+$section-padding: 3em;
 $container-small-max-width: 840px;
 $viewport-switch: calc(#{$container-max-width}/.9);
 
@@ -29,7 +30,7 @@ $wpadmin-bar-height: 32px;
 $wpadmin-bar-height-mobile: 46px;
 
 // Header 
-$header-height: 80px;
+$header-height: 100px;
 
 // Keyframes
 @keyframes fade-in-1 {   
