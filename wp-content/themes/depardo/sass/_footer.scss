@@ -1,5 +1,17 @@
 .footer {
   background: $quaternary-color;
+  padding: 2.5em 0;
 
-  
+  .col p:last-of-type {
+    padding-bottom: 0;
+  }
+
+  &__subhead {
+    color: $primary-color;
+  }
+
+  &__text {
+    color: $gray-main;
+    font-size: .825rem;
+  }
 }
