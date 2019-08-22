@@ -11,6 +11,14 @@
   padding-bottom: 0;
 }
 
+.double-vert-padding {
+  padding: $section-padding*2 0;
+}
+
+.triple-vert-padding {
+  padding: $section-padding*3 0;
+}
+
 .no-margin {
   margin: 0;
 }

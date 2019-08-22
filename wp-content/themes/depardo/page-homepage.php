@@ -13,7 +13,10 @@ get_header();
     <div id="primary" class="content-area">
       <main id="main" class="site-main">
 
-        <section class="hero" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/banners/banner-leaf.jpg');">
+        <section class="hero hero--video">
+          <video id="videoBG" poster="poster.JPG" autoplay muted loop>
+            <source src="<?php echo get_stylesheet_directory_uri(); ?>/video/bg-video.mp4" type="video/mp4">
+          </video>
           <div class="container">
             <div class="hero__text">
               <h1 class="hero__title">Fuel success</h1>
@@ -22,25 +25,25 @@ get_header();
           </div>        
         </section>
 
-        <section>
+        <section class="triple-vert-padding">
           <div class="container">
             <div class="grid text-centered">
               <div class="col col--1-3">
                 <div class="icon-block">
                   <img class="icon-block__image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/icon.svg" alt="alt text">
-                  <h3 class="icon-block__heading">Is your business performing the way you had imagined?</h3>
+                  <h2 class="icon-block__heading">Is your business performing the way you had imagined?</h2>
                 </div>
               </div>
               <div class="col col--1-3">
                 <div class="icon-block">
                   <img class="icon-block__image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/icon.svg" alt="alt text">
-                  <h3 class="icon-block__heading">Are you well-positioned for the future?</h3>
+                  <h2 class="icon-block__heading">Are you well-positioned for the future?</h2>
                 </div>
               </div>
               <div class="col col--1-3">
                 <div class="icon-block">
                   <img class="icon-block__image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/icon.svg" alt="alt text">
-                  <h3 class="icon-block__heading">Are your people reaching their maximum potential?</h3>
+                  <h2 class="icon-block__heading">Are your people reaching their maximum potential?</h2>
                 </div>
               </div>
             </div>
