@@ -9,10 +9,12 @@
 body {
   background: white;
   font-size: 1em;
+  line-height: 1.375;
   font-family: $sans-serif;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: $sans-serif;
 }
 
 img,

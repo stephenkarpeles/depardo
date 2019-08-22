@@ -17,7 +17,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,700|DM+Serif+Text|Quicksand:400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Quicksand:300,400,700&display=swap" rel="stylesheet">
 
 	<?php wp_head(); ?>
 </head>
@@ -30,7 +30,7 @@
 		<div class="container">
 			<div class="header__logo">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logos/logo.svg" alt="<?php bloginfo( 'name' ); ?>">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logos/logo-white.svg" alt="<?php bloginfo( 'name' ); ?>">
 				</a>
 			</div>
 

@@ -1,6 +1,7 @@
 // Default Font Stacks
-$sans-serif: 'NeuzeitBook', Helvetica, Arial, sans-serif;
-$serif: 'BebasNeue', Georgia, sans-serif;
+$sans-serif: 'Montserrat', Helvetica, Arial, sans-serif;
+$sans-serif-alt: 'Quicksand', Helvetica, Arial, sans-serif;
+
 // Colors
 $primary-color: rgba(229, 90, 56, 1); // orange
 $secondary-color: rgba(87, 182, 233, 1); // blue
@@ -30,7 +31,7 @@ $wpadmin-bar-height: 32px;
 $wpadmin-bar-height-mobile: 46px;
 
 // Header 
-$header-height: 100px;
+$header-height: 120px;
 
 // Keyframes
 @keyframes fade-in-1 {   

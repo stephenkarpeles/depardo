@@ -161,3 +161,6 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+/* Disable WordPress Admin Bar for all users */
+show_admin_bar(false);
+

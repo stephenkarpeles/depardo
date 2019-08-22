@@ -16,8 +16,8 @@ get_header();
         <section class="hero" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/banners/banner-leaf.jpg');">
           <div class="container">
             <div class="hero__text">
-              <h1 class="hero__title">Title</h1>
-              <p class="hero__copy">This is the copy description that sits inside the hero block. It can be short or long.</p>          
+              <h1 class="hero__title">Fuel success</h1>
+              <p class="hero__copy">Get data-driven strategies to fire up short-term wins and long-term performance</p>          
             </div>
           </div>        
         </section>

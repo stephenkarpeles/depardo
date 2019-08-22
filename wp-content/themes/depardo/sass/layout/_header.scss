@@ -8,22 +8,33 @@
   .container {
     display: flex;
     justify-content: space-between;
-    max-width: 50%;
+  }
+
+  &__logo {
+    img {
+      width: 134px;
+    }
   }
 
   &__menu {
     color: white;
+    font-family: $sans-serif-alt;
 
     li {
       &:first-child:before {
         content: '/';
         display: inline-block;
         margin-right: 1rem;
+        font-weight: 300;
       }
     }
 
     a {
-      color: white;
+      color: white;      
+      text-transform: uppercase;
+      font-size: .85rem;
+      font-weight: 300;
+      letter-spacing: 1px;
 
       &:after {
         content: '/';
