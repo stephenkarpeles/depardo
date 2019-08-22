@@ -30,19 +30,19 @@ get_header();
             <div class="grid text-centered">
               <div class="col col--1-3">
                 <div class="icon-block">
-                  <img class="icon-block__image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/icon.svg" alt="alt text">
+                  <img class="icon-block__image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/icon-man-graph.svg" alt="alt text">
                   <h2 class="icon-block__heading">Is your business performing the way you had imagined?</h2>
                 </div>
               </div>
               <div class="col col--1-3">
                 <div class="icon-block">
-                  <img class="icon-block__image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/icon.svg" alt="alt text">
+                  <img class="icon-block__image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/icon-man-clock.svg" alt="alt text">
                   <h2 class="icon-block__heading">Are you well-positioned for the future?</h2>
                 </div>
               </div>
               <div class="col col--1-3">
                 <div class="icon-block">
-                  <img class="icon-block__image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/icon.svg" alt="alt text">
+                  <img class="icon-block__image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/icon-head-question.svg" alt="alt text">
                   <h2 class="icon-block__heading">Are your people reaching their maximum potential?</h2>
                 </div>
               </div>
