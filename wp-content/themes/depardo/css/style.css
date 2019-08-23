@@ -358,7 +358,8 @@ section {
     background: #e86d4f; }
 
 .interstitial-split {
-  color: white; }
+  color: white;
+  padding: 4em 0; }
   .interstitial-split h4 {
     margin-bottom: 0;
     padding-bottom: .25rem; }
@@ -369,6 +370,13 @@ section {
     flex-direction: column;
     justify-content: center; }
   .interstitial-split .col--left {
-    text-align: right; }
+    text-align: right;
+    position: relative; }
+    .interstitial-split .col--left:after {
+      content: '/';
+      font-size: 11rem;
+      position: absolute;
+      right: -35%;
+      font-weight: 100; }
 
 /*# sourceMappingURL=style.css.map */

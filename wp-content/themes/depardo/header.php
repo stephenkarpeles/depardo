@@ -17,7 +17,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Quicksand:300,400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,400i,700,700i|Quicksand:300,400,700&display=swap" rel="stylesheet">
 
 	<?php wp_head(); ?>
 </head>

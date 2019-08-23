@@ -1,5 +1,6 @@
 .interstitial-split {
   color: white;
+  padding: 4em 0;
 
   h4 {
     margin-bottom: 0;
@@ -18,5 +19,14 @@
 
   .col--left {
     text-align: right;
+    position: relative;
+
+    &:after {
+      content: '/';
+      font-size: 11rem;
+      position: absolute;
+      right: -35%;
+      font-weight: 100;
+    }
   }
 }
