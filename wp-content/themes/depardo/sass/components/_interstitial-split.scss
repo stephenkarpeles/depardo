@@ -21,12 +21,20 @@
     text-align: right;
     position: relative;
 
+    @include mq(ipad, 'max-width') {
+      text-align: left;
+    }
+
     &:after {
       content: '/';
       font-size: 11rem;
       position: absolute;
       right: -35%;
       font-weight: 100;
+
+      @include mq(ipad, 'max-width') {
+        display: none;
+      }
     }
   }
 }

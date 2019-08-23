@@ -372,11 +372,17 @@ section {
   .interstitial-split .col--left {
     text-align: right;
     position: relative; }
+    @media screen and (max-width: 767px) {
+      .interstitial-split .col--left {
+        text-align: left; } }
     .interstitial-split .col--left:after {
       content: '/';
       font-size: 11rem;
       position: absolute;
       right: -35%;
       font-weight: 100; }
+      @media screen and (max-width: 767px) {
+        .interstitial-split .col--left:after {
+          display: none; } }
 
 /*# sourceMappingURL=style.css.map */
