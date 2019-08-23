@@ -385,4 +385,33 @@ section {
         .interstitial-split .col--left:after {
           display: none; } }
 
+.accordion-container {
+  border: 1px solid #939598;
+  margin-bottom: .75rem; }
+  .accordion-container h3 {
+    cursor: pointer;
+    margin-bottom: 0;
+    position: relative;
+    padding: .5rem .75rem; }
+    .accordion-container h3:hover {
+      opacity: .8; }
+    .accordion-container h3:after {
+      color: #939598;
+      position: absolute;
+      right: .75rem;
+      content: '+';
+      display: inline-block; }
+
+.accordion-text {
+  height: 0;
+  overflow: hidden;
+  font-size: .9rem; }
+
+.accordion-container.is-open-accordion .accordion-text {
+  height: auto;
+  padding: 0 .75rem .75rem .75rem; }
+
+.accordion-container.is-open-accordion h3:after {
+  content: '-'; }
+
 /*# sourceMappingURL=style.css.map */

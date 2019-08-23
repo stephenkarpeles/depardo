@@ -31,7 +31,7 @@ get_header();
           <div class="container">
             <div class="grid">
               <div class="col col--2-5">
-                <h4 class="color--primary">Financial Advisory Firms</h4>
+                <h2 class="color--primary">Financial Advisory Firms</h2>
                 <p>We like to jump right in and get moving. It all starts by listening to you — your concerns, your challenges, and business needs. We talk with the relevant people on your team and gather all the facts. Then, we put it all together, combining what we learn from you with our deep industry knowledge and relevant data. Ultimately, we deliver detailed, customized, and implementable recommendations on how your firm can address short term challenges and achieve long-term goals.</p>
                 <p><strong>Common issues our financial advisory clients face include:</strong></p>
                 <ul class="no-top-margin">
@@ -46,7 +46,7 @@ get_header();
                 </ul>
               </div>
               <div class="col col--2-5">
-                <h4 class="color--primary">Financial Institutions</h4>
+                <h2 class="color--primary">Financial Institutions</h2>
                 <p>If you're with a financial institution, you can think of De Pardo Consulting as a partner that helps fuel the growth of the advisory firms you work with. Simply put, we have the ability to provide a wide range of services and programs to help support you in engaging and advancing advisory firm practices. This support enhances your brand while giving financial advisory firms the business management guidance they need.</p>
                 <p><strong>Common issues our financial institution clients face include:</strong></p>
                 <ul class="no-top-margin">
@@ -69,6 +69,60 @@ get_header();
               <div class="col col--2-5 col--right">
                 <h4>Financial institutions</h4>
                 <p>work with De Pardo Consulting to facilitate advisor growth, provide customized research and consulting support, and enhance relationships with the advisory firms they partner with.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="container">
+            <div class="grid">
+              <div class="col col--2-5"> 
+
+                <h2 class="color--primary">We can help</h2>         
+                <div class="accordion-container">
+                  <h3>Click here</h3>
+                  <div class="accordion-text">
+                    Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text 
+                  </div>
+                </div>
+                <div class="accordion-container">
+                  <h3>Click here</h3>
+                  <div class="accordion-text">
+                    Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text 
+                  </div>
+                </div>
+                <div class="accordion-container">
+                  <h3>Click here</h3>
+                  <div class="accordion-text">
+                    Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text 
+                  </div>
+                </div>
+
+              </div>
+              
+              <div class="col col--2-5"> 
+
+                <h2 class="color--primary">We can help</h2>         
+                <div class="accordion-container">
+                  <h3>Click here</h3>
+                  <div class="accordion-text">
+                    Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text 
+                  </div>
+                </div>
+                <div class="accordion-container">
+                  <h3>Click here</h3>
+                  <div class="accordion-text">
+                    Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text 
+                  </div>
+                </div>
+                <div class="accordion-container">
+                  <h3>Click here</h3>
+                  <div class="accordion-text">
+                    Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text 
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
