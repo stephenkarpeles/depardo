@@ -1,0 +1,26 @@
+.bio {
+  h2 {
+    margin-bottom: 0;
+    padding-bottom: .5rem;
+  }
+
+  &__text-content {
+    font-weight: 400;
+  }
+
+  &__image {
+    margin-bottom: 2rem;
+  }
+
+  &__text-container {
+    padding: 1rem 8rem;
+
+    @include mq(ipad, 'max-width') {
+      padding: 1rem 0;
+    }
+  }
+
+  ul {
+    margin-top: 0;
+  }
+}

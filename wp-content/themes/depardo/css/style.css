@@ -327,6 +327,8 @@ section {
 .icon-block__image {
   margin: 0 auto 1.5rem;
   width: 3rem; }
+  .icon-block__image--left-aligned {
+    margin: 0 0 1.5rem; }
 
 .cta-block {
   background: #57b6e9;
@@ -349,7 +351,7 @@ section {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   border-radius: 5px;
   padding: .6rem 1.25rem;
   font-size: .85rem;
@@ -413,5 +415,32 @@ section {
 
 .accordion-container.is-open-accordion h3:after {
   content: '-'; }
+
+.testimonial {
+  color: white;
+  text-align: center;
+  padding: 6.5em 0 3.5em; }
+  .testimonial__quote-mark {
+    font-size: 6rem;
+    line-height: 1rem;
+    font-family: 'IM Fell French Canon', serif;
+    font-style: italic;
+    margin-bottom: 0;
+    padding-bottom: 0; }
+
+.bio h2 {
+  margin-bottom: 0;
+  padding-bottom: .5rem; }
+.bio__text-content {
+  font-weight: 400; }
+.bio__image {
+  margin-bottom: 2rem; }
+.bio__text-container {
+  padding: 1rem 8rem; }
+  @media screen and (max-width: 767px) {
+    .bio__text-container {
+      padding: 1rem 0; } }
+.bio ul {
+  margin-top: 0; }
 
 /*# sourceMappingURL=style.css.map */

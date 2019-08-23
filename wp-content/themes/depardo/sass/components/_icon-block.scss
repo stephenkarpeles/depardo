@@ -15,5 +15,9 @@
   &__image {
     margin: 0 auto 1.5rem;
     width: 3rem;
+
+    &--left-aligned {
+      margin: 0 0 1.5rem;
+    }
   }
 }

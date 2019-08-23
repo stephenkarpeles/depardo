@@ -1,0 +1,14 @@
+.testimonial {
+  color: white;
+  text-align: center;
+  padding: 6.5em 0 3.5em;
+
+  &__quote-mark {
+    font-size: 6rem;
+    line-height: 1rem;
+    font-family: 'IM Fell French Canon', serif;
+    font-style: italic;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
