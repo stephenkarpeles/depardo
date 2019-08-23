@@ -17,4 +17,21 @@
     color: $gray-main;
     font-size: .825rem;
   }
+
+  &__logo {
+    width: 120px;
+    margin-bottom: 1.25rem;
+  }
+
+  a {
+    font-weight: 700;
+    font-size: .825rem;
+    text-decoration: none;
+    color: $gray-main;
+    transition: color .15s ease;
+
+    &:hover {
+      color: lighten($gray-main, 10%);
+    }
+  }
 }

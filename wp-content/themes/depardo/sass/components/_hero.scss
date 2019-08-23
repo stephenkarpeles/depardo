@@ -30,13 +30,21 @@
     position: relative;
 
     video {
-      width: 100%;
-      height: auto;
+      // width: 100%;
+      // height: auto;
+      min-width: 100%;
+      max-width: 100%;
+
+      // @media not all and (min-resolution:.001dpcm) { 
+      //   @supports (-webkit-appearance:none) {
+      //     display: inline-block;
+      //   }
+      // }
     }
 
     &::after {
       content: '';
-      background: rgba(0, 0, 0, .4);
+      background: rgba(0, 0, 0, .65);
       position: absolute;
       top: 0;
       bottom: 0;

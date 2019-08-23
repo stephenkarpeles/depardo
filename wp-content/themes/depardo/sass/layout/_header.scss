@@ -37,6 +37,11 @@
       font-size: .85rem;
       font-weight: 300;
       letter-spacing: 1px;
+      transition: color .2s ease;
+
+      &:hover {
+        color: rgba(white, .7);
+      }
 
       &:after {
         content: '/';

@@ -3,7 +3,7 @@
   color: white;
   text-align: center;
   overflow: hidden;
-  padding: 3em 0;
+  padding: 5em 0;
 
   &__heading {
     font-size: 1.75rem;
@@ -12,11 +12,22 @@
 
   &__content {
     width: 100%;
-    max-width: 60%;
+    max-width: 63%;
+    margin: 0 auto;
+    font-size: 1.1rem;
+  }
+
+  &__image {
+    padding-bottom: 1.5rem;
+    width: 2.75rem;
     margin: 0 auto;
   }
 
   p {
-    padding-bottom: 1rem;
+    padding-bottom: 1.25rem;
+
+    &:last-of-type {
+      padding-bottom: 0;
+    }
   }
 }
