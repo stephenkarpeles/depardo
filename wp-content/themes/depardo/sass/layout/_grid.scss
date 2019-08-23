@@ -4,6 +4,10 @@
 }
  
 .col {
+  &--tight {
+    padding-right: 10%;
+  }
+
   &--1-4 {
     width: 22%;
   }
@@ -27,6 +31,10 @@
 
     &:last-of-type {
       margin-bottom: 0
+    }
+
+    &--tight {
+      padding-right: 0;
     }
 
     &--1-4 {
