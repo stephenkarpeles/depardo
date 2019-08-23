@@ -30,7 +30,7 @@ get_header();
         <section>
           <div class="container">
             <div class="grid">
-              <div class="col col--1-2 col--tight">
+              <div class="col col--2-5">
                 <h4 class="color--primary">Financial Advisory Firms</h4>
                 <p>We like to jump right in and get moving. It all starts by listening to you — your concerns, your challenges, and business needs. We talk with the relevant people on your team and gather all the facts. Then, we put it all together, combining what we learn from you with our deep industry knowledge and relevant data. Ultimately, we deliver detailed, customized, and implementable recommendations on how your firm can address short term challenges and achieve long-term goals.</p>
                 <p><strong>Common issues our financial advisory clients face include:</strong></p>
@@ -45,7 +45,7 @@ get_header();
                   <li>Need to assess the benefits of a merger or acquisition </li>
                 </ul>
               </div>
-              <div class="col col--1-2 col--tight">
+              <div class="col col--2-5">
                 <h4 class="color--primary">Financial Institutions</h4>
                 <p>If you're with a financial institution, you can think of De Pardo Consulting as a partner that helps fuel the growth of the advisory firms you work with. Simply put, we have the ability to provide a wide range of services and programs to help support you in engaging and advancing advisory firm practices. This support enhances your brand while giving financial advisory firms the business management guidance they need.</p>
                 <p><strong>Common issues our financial institution clients face include:</strong></p>
@@ -54,6 +54,21 @@ get_header();
                   <li>Desire for engaging content and presentations designed specifically to support advisory firm success</li>
                   <li>Uncertainty regarding how to develop a program and prioritize advisor support resources</li>
                 </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="interstitial-split" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/banners/banner-leaf.jpg');">
+          <div class="container">
+            <div class="grid">
+              <div class="col col--2-5 col--left">
+                <h4>Financial advisory firms</h4>
+                <p>look to De Pardo Consulting for an impartial perspective on their business coupled with a broad knowledge of industry best practices.</p>
+              </div>
+              <div class="col col--2-5 col--right">
+                <h4>Financial institutions</h4>
+                <p>work with De Pardo Consulting to facilitate advisor growth, provide customized research and consulting support, and enhance relationships with the advisory firms they partner with.</p>
               </div>
             </div>
           </div>

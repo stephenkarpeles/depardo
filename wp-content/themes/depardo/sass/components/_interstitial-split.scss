@@ -1,0 +1,22 @@
+.interstitial-split {
+  color: white;
+
+  h4 {
+    margin-bottom: 0;
+    padding-bottom: .25rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .col--left {
+    text-align: right;
+  }
+}
