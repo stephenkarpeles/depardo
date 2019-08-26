@@ -4,7 +4,7 @@
   color: white;
   text-align: center;
   overflow: hidden;
-  padding: calc(3em + #{$header-height}) 0 9em;
+  padding: calc(1.25em + #{$header-height}) 0 6em;
   position: relative;
   z-index: 1;
 
@@ -54,7 +54,7 @@
 
     &::after {
       content: '';
-      background: rgba(0, 0, 0, .65);
+      background: rgba(0, 0, 0, .45);
       position: absolute;
       top: 0;
       bottom: 0;

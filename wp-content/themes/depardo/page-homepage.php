@@ -21,13 +21,42 @@ get_header();
               <video id="videoBG" poster="poster.JPG" autoplay muted loop>
                 <source src="<?php echo $hero['background_video']['url']; ?>" type="video/mp4">
               </video>
-              <div class="container">
-                <div class="hero__text">
+              <div class="container slideshow-container">
+                <div class="hero__text rotating-slide fade">
                   <h1 class="hero__title"><?php echo $hero['heading']; ?></h1>
                   <p class="hero__copy"><?php echo $hero['subheading']; ?></p>          
                 </div>
+
+                <div class="hero__text rotating-slide fade">
+                  <h1 class="hero__title"><?php echo $hero['heading']; ?></h1>
+                  <p class="hero__copy"><?php echo $hero['subheading']; ?></p>          
+                </div>
+
+                <div class="hero__text rotating-slide fade">
+                  <h1 class="hero__title"><?php echo $hero['heading']; ?></h1>
+                  <p class="hero__copy"><?php echo $hero['subheading']; ?></p>          
+                </div>
+
+                <div class="hero__text rotating-slide fade">
+                  <h1 class="hero__title"><?php echo $hero['heading']; ?></h1>
+                  <p class="hero__copy"><?php echo $hero['subheading']; ?></p>          
+                </div>
+
+                <div class="hero__text rotating-slide fade">
+                  <h1 class="hero__title"><?php echo $hero['heading']; ?></h1>
+                  <p class="hero__copy"><?php echo $hero['subheading']; ?></p>          
+                </div>
+
+                <div class="dot-wrapper">
+                  <span class="slide-dot"></span> 
+                  <span class="slide-dot"></span> 
+                  <span class="slide-dot"></span> 
+                  <span class="slide-dot"></span> 
+                  <span class="slide-dot"></span> 
+                </div>
+
               </div>        
-            </section>
+            </section>            
 
         <?php endif; ?> 
 

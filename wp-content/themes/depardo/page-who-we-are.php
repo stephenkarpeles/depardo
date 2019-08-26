@@ -32,7 +32,7 @@ get_header();
           if( $bio ): ?>
 
             <section>
-              <div class="container">
+              <div class="container container--narrow">
                 <div class="bio">
                   <div class="bio__image">
                     <img src="<?php echo $bio['bio_image']['url']; ?>" alt="<?php echo $bio['bio_image']['alt']; ?>">

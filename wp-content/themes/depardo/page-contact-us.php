@@ -27,24 +27,6 @@ get_header();
 
         <?php endif; ?>
 
-        <?php      
-          $cta = get_field('cta_block'); 
-          if( $cta ): ?>
-
-            <section class="cta-block">
-              <div class="container">
-                <div class="cta-block__text">
-                  <h4><?php echo $cta['heading']; ?></h4>
-                  <p><?php echo $cta['subheading']; ?></p>
-                </div>
-                <div class="cta-block__button">
-                  <a href="#" class="btn">Contact Us</a>
-                </div>
-              </div>
-            </section>
-
-        <?php endif; ?>
-
       </main><!-- #main -->
     </div><!-- #primary -->    
 

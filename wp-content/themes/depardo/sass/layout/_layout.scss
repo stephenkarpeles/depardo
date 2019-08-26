@@ -10,4 +10,8 @@ section {
   margin: 0 auto;
   width: $container-width;
   max-width: $container-max-width;
+
+  &--narrow {
+    max-width: $container-small-max-width;
+  }
 }

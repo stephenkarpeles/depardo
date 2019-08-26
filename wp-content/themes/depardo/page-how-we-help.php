@@ -59,7 +59,7 @@ get_header();
           </div>
         </section>
 
-        <section class="interstitial-split" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/banners/banner-leaf.jpg');">
+        <section class="interstitial-split" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/stock/istockphoto-528053512-2048x2048.jpg');">
           <div class="container">
             <div class="grid">
               <div class="col col--2-5 col--left">
@@ -81,21 +81,33 @@ get_header();
 
                 <h2 class="color--primary">We can help</h2>         
                 <div class="accordion-container">
-                  <h3>Click here</h3>
+                  <h3>Ignite Growth and Propel Profit</h3>
                   <div class="accordion-text">
-                    Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text 
+                    <p><strong>Strategic Growth Planning</strong><br>
+                      We create effective, data-driven strategic plans that determine how firms can optimize their time, money and energy to achieve their goals. Working directly with firm shareholders, we create a three-year strategic plan with twelve-month priorities. This combines with an implementation schedule that ensures your plan will be brought to life to deliver  long-term growth and success.
+                    </p>
+                    <p><strong>Merger/Acquisition Assessments</strong><br>
+                      We provide a deep analysis of whether a merger or acquisition makes sense to fulfil your growth plans. Whether you’re actively engaged in discussions with other entities or just considering M&A as a path to growth, we will assess how a transaction would support your growth aspirations.
+                    </p>
+                    <p><strong>Organizational Design</strong><br>
+                      We help firms organize talent to serve their clients in the most efficient manner. This includes defining an ideal firm organizational structure and how to create a more productive and profitable advice team.
+                    </p>
                   </div>
                 </div>
                 <div class="accordion-container">
-                  <h3>Click here</h3>
+                  <h3>Power New Markets </h3>
                   <div class="accordion-text">
-                    Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text 
+                    <p><strong>Organizational Design</strong><br>
+                      We help firms organize talent to serve their clients in the most efficient manner. This includes defining an ideal firm organizational structure and how to create a more productive and profitable advice team.
+                    </p>
                   </div>
                 </div>
                 <div class="accordion-container">
-                  <h3>Click here</h3>
+                  <h3>Spark Loyalty</h3>
                   <div class="accordion-text">
-                    Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text 
+                    <p><strong>Organizational Design</strong><br>
+                      We help firms organize talent to serve their clients in the most efficient manner. This includes defining an ideal firm organizational structure and how to create a more productive and profitable advice team.
+                    </p>
                   </div>
                 </div>
 
@@ -105,21 +117,35 @@ get_header();
 
                 <h2 class="color--primary">We can help</h2>         
                 <div class="accordion-container">
-                  <h3>Click here</h3>
+                  <h3>Market Research</h3>
                   <div class="accordion-text">
-                    Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text 
+                    <p><strong>Organizational Design</strong><br>
+                      We help firms organize talent to serve their clients in the most efficient manner. This includes defining an ideal firm organizational structure and how to create a more productive and profitable advice team.
+                    </p> 
                   </div>
                 </div>
                 <div class="accordion-container">
-                  <h3>Click here</h3>
+                  <h3>Practice Management Program Assessment</h3>
                   <div class="accordion-text">
-                    Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text 
+                    <p><strong>Organizational Design</strong><br>
+                      We help firms organize talent to serve their clients in the most efficient manner. This includes defining an ideal firm organizational structure and how to create a more productive and profitable advice team.
+                    </p> 
                   </div>
                 </div>
                 <div class="accordion-container">
-                  <h3>Click here</h3>
+                  <h3>Workshops, Webcasts, and Presentations for Advisors</h3>
                   <div class="accordion-text">
-                    Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text   Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text  Internal Text Internal Text Internal Text Internal Text Internal Text 
+                    <p><strong>Organizational Design</strong><br>
+                      We help firms organize talent to serve their clients in the most efficient manner. This includes defining an ideal firm organizational structure and how to create a more productive and profitable advice team.
+                    </p> 
+                  </div>
+                </div>
+                <div class="accordion-container">
+                  <h3>Speaking Engagements</h3>
+                  <div class="accordion-text">
+                    <p><strong>Organizational Design</strong><br>
+                      We help firms organize talent to serve their clients in the most efficient manner. This includes defining an ideal firm organizational structure and how to create a more productive and profitable advice team.
+                    </p> 
                   </div>
                 </div>
 

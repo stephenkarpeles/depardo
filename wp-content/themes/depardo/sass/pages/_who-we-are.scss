@@ -12,14 +12,6 @@
     margin-bottom: 2rem;
   }
 
-  &__text-container {
-    padding: 1rem 8rem;
-
-    @include mq(ipad, 'max-width') {
-      padding: 1rem 0;
-    }
-  }
-
   ul {
     margin-top: 0;
   }

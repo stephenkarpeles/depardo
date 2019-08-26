@@ -53,9 +53,11 @@ get_header();
 
             <section class="testimonial has-overlay-dark" style="background-image: url('<?php echo $testimonial['background_image']['url']; ?>');">
               <div class="container">
-                <div class="testimonial__quote-mark">"</div>
-                <p><?php echo $testimonial['testimonial_text']; ?></p>
-                <p><strong><?php echo $testimonial['testimonial_author_info']; ?></strong></p>              
+                <div class="testimonial__quote-mark">
+                  <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/icon-quote-mark.svg" alt="Testimonial Icon">
+                </div>
+                <p class="testimonial__text"><?php echo $testimonial['testimonial_text']; ?></p>
+                <p class="testimonial__author-info"><strong><?php echo $testimonial['testimonial_author_info']; ?></strong></p>              
               </div>
             </section>
 
