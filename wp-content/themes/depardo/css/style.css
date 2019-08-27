@@ -157,6 +157,17 @@ section {
   .container--narrow {
     max-width: 44rem; }
 
+@media screen and (max-width: 767px) {
+  body.has-open-nav {
+    overflow: hidden; }
+    body.has-open-nav #content:before {
+      position: fixed;
+      height: 100%;
+      width: 100%;
+      content: '';
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 1000; } }
+
 .header {
   background: transparent;
   height: 120px;
@@ -164,7 +175,7 @@ section {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  z-index: 100; }
+  z-index: 2000; }
   .header .container {
     display: flex;
     justify-content: space-between; }
@@ -219,8 +230,8 @@ section {
   display: none; }
   @media screen and (max-width: 767px) {
     .main-navigation ul {
-      padding: 0 0 0 5%;
-      margin: 1.5rem 0 0; } }
+      padding: 0;
+      margin: 2rem 0 0; } }
 
 .main-navigation li {
   list-style-type: none;
@@ -230,7 +241,10 @@ section {
       margin: 0 0 0 1.75rem; } }
   @media screen and (max-width: 767px) {
     .main-navigation li {
-      margin: 0 0 .5rem; } }
+      margin: 0 0 .25rem;
+      padding: 8px 0 8px 5%; }
+      .main-navigation li:hover {
+        background: #e55a38; } }
 
 .main-navigation li:first-child {
   margin-left: 0; }
@@ -242,27 +256,37 @@ section {
   text-decoration: none; }
 
 /* Small menu. */
-.menu-toggle,
-.main-navigation.toggled ul {
-  display: block; }
+@media screen and (max-width: 767px) {
+  .menu-toggle,
+  .main-navigation.toggled ul {
+    display: block; } }
 
 .menu-toggle {
   cursor: pointer;
   background: transparent;
   border: none;
-  margin-top: -6px; }
-  .menu-toggle button {
-    background: transparent;
-    border-radius: none;
-    border: none;
-    -webkit-appearance: none;
-    appearance: none; }
+  margin-top: -6px;
+  border-radius: none;
+  -webkit-appearance: none;
+  appearance: none;
+  position: relative;
+  z-index: 9999; }
+  .menu-toggle:focus, .menu-toggle:active {
+    outline: none; }
   .menu-toggle span {
     display: block;
     background: white;
     height: 2px;
     width: 38px;
     margin-bottom: 10px; }
+    body.has-open-nav .menu-toggle span:nth-child(1) {
+      transform: rotate(45deg);
+      position: relative;
+      top: .75rem; }
+    body.has-open-nav .menu-toggle span:nth-child(2) {
+      display: none; }
+    body.has-open-nav .menu-toggle span:nth-child(3) {
+      transform: rotate(135deg); }
 
 @media screen and (min-width: 768px) {
   .menu-toggle {

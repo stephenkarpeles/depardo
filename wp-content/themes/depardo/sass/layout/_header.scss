@@ -1,3 +1,18 @@
+body.has-open-nav {
+  @include mq(ipad, 'max-width') {
+    overflow: hidden;
+
+    #content:before {
+      position: fixed;
+      height: 100%;
+      width: 100%;
+      content: '';
+      background: rgba(black, .8);
+      z-index: 1000;
+    }
+  }
+}
+
 .header {
   background: transparent;
   height: $header-height;
@@ -5,7 +20,7 @@
   flex-direction: column;
   justify-content: center;
   position: relative;
-  z-index: 100;
+  z-index: 2000;
 
   .container {
     display: flex;
@@ -87,8 +102,8 @@
   display: none;
 
   @include mq(ipad, 'max-width') {
-    padding: 0 0 0 5%;
-    margin: 1.5rem 0 0;
+    padding: 0;
+    margin: 2rem 0 0;
   }
 }
 
@@ -101,7 +116,12 @@
   }
 
   @include mq(ipad, 'max-width') {
-    margin: 0 0 .5rem;
+    margin: 0 0 .25rem;
+    padding: 8px 0 8px 5%;
+
+    &:hover {
+      background: $primary-color;
+    }
   }
 }
 
@@ -120,7 +140,9 @@
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
-  display: block;
+  @include mq(ipad, 'max-width') {
+    display: block;
+  }
 }
 
 .menu-toggle {
@@ -128,14 +150,16 @@
   background: transparent;
   border: none; 
   margin-top: -6px;
+  border-radius: none;
+  -webkit-appearance: none;
+  appearance: none;
+  position: relative;
+  z-index: 9999;
 
-  button {
-    background: transparent;
-    border-radius: none;
-    border: none;
-    -webkit-appearance: none;
-    appearance: none;
-  }
+  &:focus,
+  &:active {
+    outline: none;
+  } 
 
   span {
     display: block;
@@ -143,6 +167,22 @@
     height: 2px;
     width: 38px;
     margin-bottom: 10px;
+
+    body.has-open-nav & {
+      &:nth-child(1) {
+        transform: rotate(45deg);
+        position: relative;
+        top: .75rem;
+      }
+
+      &:nth-child(2) {
+        display: none;
+      }
+
+      &:nth-child(3) {
+        transform: rotate(135deg);
+      }
+    }
   }
 }
 
