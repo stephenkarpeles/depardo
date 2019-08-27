@@ -23,28 +23,28 @@ get_header();
               </video>
               <div class="container slideshow-container">
                 <div class="hero__text rotating-slide fade">
-                  <h1 class="hero__title"><?php echo $hero['heading']; ?></h1>
-                  <p class="hero__copy"><?php echo $hero['subheading']; ?></p>          
+                  <h1 class="hero__title"><?php echo $hero['heading_1']; ?></h1>
+                  <p class="hero__copy"><?php echo $hero['subheading_1']; ?></p>          
                 </div>
 
                 <div class="hero__text rotating-slide fade">
-                  <h1 class="hero__title"><?php echo $hero['heading']; ?></h1>
-                  <p class="hero__copy"><?php echo $hero['subheading']; ?></p>          
+                  <h1 class="hero__title"><?php echo $hero['heading_2']; ?></h1>
+                  <p class="hero__copy"><?php echo $hero['subheading_2']; ?></p>          
                 </div>
 
                 <div class="hero__text rotating-slide fade">
-                  <h1 class="hero__title"><?php echo $hero['heading']; ?></h1>
-                  <p class="hero__copy"><?php echo $hero['subheading']; ?></p>          
+                  <h1 class="hero__title"><?php echo $hero['heading_3']; ?></h1>
+                  <p class="hero__copy"><?php echo $hero['subheading_3']; ?></p>          
                 </div>
 
                 <div class="hero__text rotating-slide fade">
-                  <h1 class="hero__title"><?php echo $hero['heading']; ?></h1>
-                  <p class="hero__copy"><?php echo $hero['subheading']; ?></p>          
+                  <h1 class="hero__title"><?php echo $hero['heading_4']; ?></h1>
+                  <p class="hero__copy"><?php echo $hero['subheading_4']; ?></p>          
                 </div>
 
                 <div class="hero__text rotating-slide fade">
-                  <h1 class="hero__title"><?php echo $hero['heading']; ?></h1>
-                  <p class="hero__copy"><?php echo $hero['subheading']; ?></p>          
+                  <h1 class="hero__title"><?php echo $hero['heading_5']; ?></h1>
+                  <p class="hero__copy"><?php echo $hero['subheading_5']; ?></p>          
                 </div>
 
                 <div class="dot-wrapper">
@@ -144,7 +144,7 @@ get_header();
                   <p><?php echo $cta['subheading']; ?></p>
                 </div>
                 <div class="cta-block__button">
-                  <a href="#" class="btn">Contact Us</a>
+                  <a href="<?php echo $cta['button_link']; ?>" class="btn">Contact Us</a>
                 </div>
               </div>
             </section>

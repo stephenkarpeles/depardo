@@ -92,7 +92,7 @@ get_header();
                   <p><?php echo $cta['subheading']; ?></p>
                 </div>
                 <div class="cta-block__button">
-                  <a href="#" class="btn">Contact Us</a>
+                  <a href="<?php echo $cta['button_link']; ?>" class="btn">Contact Us</a>
                 </div>
               </div>
             </section>

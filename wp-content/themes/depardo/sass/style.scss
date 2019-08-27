@@ -7,7 +7,6 @@
 // Foundational
 @import 'base/base';
 @import 'base/typography';
-// @import 'forms';
 
 // Layout
 @import 'layout/grid';
@@ -25,12 +24,8 @@
 @import 'components/accordion';
 @import 'components/testimonial';
 @import 'components/rotating-text';
-// @import 'comments';
-// @import 'idea-block';
-// @import 'lead-magnet';
-// @import 'modal';
-// @import 'related-posts';
+@import 'components/forms';
 
 // Pages
 @import 'pages/who-we-are';
-// @import 'post';
+@import 'pages/contact-us';
