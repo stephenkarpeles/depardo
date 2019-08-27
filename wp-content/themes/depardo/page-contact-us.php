@@ -29,7 +29,7 @@ get_header();
 
         <section>
           <div class="container container--narrow">
-            <h2 class="color--primary">Heading</h2>
+            <h2 class="color--primary">Say Hello</h2>
             <p>We would love to hear from you, we’re happy to take your questions. Please fill out the form below to contact us and we will respond to your inquiry as soon as possible</p>
               
             <div class="form-wrap">

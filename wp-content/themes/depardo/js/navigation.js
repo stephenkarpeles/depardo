@@ -35,8 +35,10 @@
 			container.className = container.className.replace( ' toggled', '' );
 			button.setAttribute( 'aria-expanded', 'false' );
 			menu.setAttribute( 'aria-expanded', 'false' );
+			document.body.classList.remove('has-open-nav');
 		} else {
 			container.className += ' toggled';
+      document.body.classList.add('has-open-nav');
 			button.setAttribute( 'aria-expanded', 'true' );
 			menu.setAttribute( 'aria-expanded', 'true' );
 		}

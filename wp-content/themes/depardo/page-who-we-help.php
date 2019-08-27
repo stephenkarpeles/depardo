@@ -56,8 +56,36 @@ get_header();
                 <div class="testimonial__quote-mark">
                   <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/icon-quote-mark.svg" alt="Testimonial Icon">
                 </div>
-                <p class="testimonial__text"><?php echo $testimonial['testimonial_text']; ?></p>
-                <p class="testimonial__author-info"><strong><?php echo $testimonial['testimonial_author_info']; ?></strong></p>              
+
+                <div class="slideshow-container">
+                  <div class="rotating-slide fade">
+                    <p class="testimonial__text"><?php echo $testimonial['testimonial_text']; ?></p>
+                    <p class="testimonial__author-info"><strong><?php echo $testimonial['testimonial_author_info']; ?></strong></p>          
+                  </div>
+                  <div class="rotating-slide fade">
+                    <p class="testimonial__text">Etiam suscipit sodales ligula ut egestas. Aliquam libero tortor, ornare at purus vel, ornare aliquam ipsum. Cras ornare ligula neque, id suscipit magna sodales nec. </p>
+                    <p class="testimonial__author-info"><strong><?php echo $testimonial['testimonial_author_info']; ?></strong></p>          
+                  </div>
+                  <div class="rotating-slide fade">
+                    <p class="testimonial__text"><?php echo $testimonial['testimonial_text']; ?></p>
+                    <p class="testimonial__author-info"><strong><?php echo $testimonial['testimonial_author_info']; ?></strong></p>          
+                  </div>
+                  <div class="rotating-slide fade">
+                    <p class="testimonial__text">Etiam suscipit sodales ligula ut egestas. Aliquam libero tortor, ornare at purus vel, ornare aliquam ipsum. Cras ornare ligula neque, id suscipit magna sodales nec. ></p>
+                    <p class="testimonial__author-info"><strong><?php echo $testimonial['testimonial_author_info']; ?></strong></p>          
+                  </div>
+                </div>
+
+                <div class="dot-wrapper dot-wrapper--hidden">
+                  <span class="slide-dot"></span> 
+                  <span class="slide-dot"></span> 
+                  <span class="slide-dot"></span> 
+                  <span class="slide-dot"></span> 
+                  <span class="slide-dot"></span> 
+                </div>
+
+
+
               </div>
             </section>
 

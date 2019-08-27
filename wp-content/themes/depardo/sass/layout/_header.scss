@@ -16,6 +16,10 @@
     img {
       width: 134px;
     }
+
+    @include mq(ipad, 'max-width') {
+      margin-top: -.75rem;
+    }
   }
 
   &__menu {
@@ -23,11 +27,30 @@
     font-family: $sans-serif-alt;
 
     li {
+      &:before {
+        content: '/';
+        display: none;
+        margin-right: 1rem;
+        font-weight: 300;
+
+        @include mq(ipad, 'max-width') {
+          display: inline-block;
+        }
+      }
+
       &:first-child:before {
         content: '/';
         display: inline-block;
         margin-right: 1rem;
         font-weight: 300;
+
+        @include mq(desktop-narrow, 'max-width') {
+          display: none;
+        }      
+
+        @include mq(ipad, 'max-width') {
+          display: inline-block;
+        }  
       }
     }
 
@@ -47,6 +70,10 @@
         content: '/';
         display: inline-block;
         margin-left: 1rem;
+
+        @include mq(desktop-narrow, 'max-width') {
+          display: none;
+        }
       }
     }
   }
@@ -58,11 +85,24 @@
 
 .main-navigation ul {
   display: none;
+
+  @include mq(ipad, 'max-width') {
+    padding: 0 0 0 5%;
+    margin: 1.5rem 0 0;
+  }
 }
 
 .main-navigation li {
   list-style-type: none;
   margin: 0 .5rem;
+
+  @include mq(desktop-narrow, 'max-width') {
+    margin: 0 0 0 1.75rem;
+  }
+
+  @include mq(ipad, 'max-width') {
+    margin: 0 0 .5rem;
+  }
 }
 
 .main-navigation li:first-child {
@@ -83,11 +123,43 @@
   display: block;
 }
 
-@media screen and (min-width: 37.5em) {
+.menu-toggle {
+  cursor: pointer;
+  background: transparent;
+  border: none; 
+  margin-top: -6px;
+
+  button {
+    background: transparent;
+    border-radius: none;
+    border: none;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  span {
+    display: block;
+    background: white;
+    height: 2px;
+    width: 38px;
+    margin-bottom: 10px;
+  }
+}
+
+@include mq(ipad) {
   .menu-toggle {
     display: none;
   }
+
   .main-navigation ul {
     display: flex;
+  }
+}
+
+.menu-top-navigation-container {
+  @include mq(ipad, 'max-width') {
+    position: absolute;
+    left: 0;
+    width: 100%;
   }
 }

@@ -170,14 +170,31 @@ section {
     justify-content: space-between; }
   .header__logo img {
     width: 134px; }
+  @media screen and (max-width: 767px) {
+    .header__logo {
+      margin-top: -.75rem; } }
   .header__menu {
     color: white;
     font-family: "Quicksand", Helvetica, Arial, sans-serif; }
+    .header__menu li:before {
+      content: '/';
+      display: none;
+      margin-right: 1rem;
+      font-weight: 300; }
+      @media screen and (max-width: 767px) {
+        .header__menu li:before {
+          display: inline-block; } }
     .header__menu li:first-child:before {
       content: '/';
       display: inline-block;
       margin-right: 1rem;
       font-weight: 300; }
+      @media screen and (max-width: 859px) {
+        .header__menu li:first-child:before {
+          display: none; } }
+      @media screen and (max-width: 767px) {
+        .header__menu li:first-child:before {
+          display: inline-block; } }
     .header__menu a {
       color: white;
       text-transform: uppercase;
@@ -191,16 +208,29 @@ section {
         content: '/';
         display: inline-block;
         margin-left: 1rem; }
+        @media screen and (max-width: 859px) {
+          .header__menu a:after {
+            display: none; } }
 
 .main-navigation {
   display: block; }
 
 .main-navigation ul {
   display: none; }
+  @media screen and (max-width: 767px) {
+    .main-navigation ul {
+      padding: 0 0 0 5%;
+      margin: 1.5rem 0 0; } }
 
 .main-navigation li {
   list-style-type: none;
   margin: 0 .5rem; }
+  @media screen and (max-width: 859px) {
+    .main-navigation li {
+      margin: 0 0 0 1.75rem; } }
+  @media screen and (max-width: 767px) {
+    .main-navigation li {
+      margin: 0 0 .5rem; } }
 
 .main-navigation li:first-child {
   margin-left: 0; }
@@ -216,12 +246,36 @@ section {
 .main-navigation.toggled ul {
   display: block; }
 
-@media screen and (min-width: 37.5em) {
+.menu-toggle {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  margin-top: -6px; }
+  .menu-toggle button {
+    background: transparent;
+    border-radius: none;
+    border: none;
+    -webkit-appearance: none;
+    appearance: none; }
+  .menu-toggle span {
+    display: block;
+    background: white;
+    height: 2px;
+    width: 38px;
+    margin-bottom: 10px; }
+
+@media screen and (min-width: 768px) {
   .menu-toggle {
     display: none; }
 
   .main-navigation ul {
     display: flex; } }
+@media screen and (max-width: 767px) {
+  .menu-top-navigation-container {
+    position: absolute;
+    left: 0;
+    width: 100%; } }
+
 .footer {
   background: #e6e7e8;
   padding: 2.5em 0;
@@ -360,6 +414,13 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center; }
+  @media screen and (max-width: 767px) {
+    .cta-block .container {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start; }
+    .cta-block__button {
+      margin-top: 1.25rem; } }
 
 .btn {
   display: inline-block;
@@ -485,7 +546,16 @@ section {
   display: none; }
 
 .dot-wrapper {
-  margin-top: 4rem; }
+  margin-top: 5rem; }
+  .dot-wrapper--hidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0; }
 
 .slide-dot {
   height: 8px;
@@ -542,19 +612,25 @@ section {
     font-weight: 300;
     margin-top: 2px; }
   .form-wrap input[type='submit'] {
+    display: inline-block;
     background: #e55a38;
     color: white;
     width: 100%;
-    border-radius: 10px;
+    text-decoration: none;
     text-transform: uppercase;
     font-weight: 400;
-    border: none;
-    text-align: center;
-    padding: 10px;
-    font-family: "Montserrat", Helvetica, Arial, sans-serif;
-    font-size: .9rem;
+    border-radius: 5px;
+    padding: .6rem 1.25rem;
+    font-size: .85rem;
+    transition: all .2s ease;
     cursor: pointer;
-    transition: opacity .15s ease; }
+    border: none;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    -webkit-appearance: none;
+    appearance: none; }
+    .form-wrap input[type='submit']:hover {
+      background: #e86d4f; }
   .form-wrap input[type='submit']:hover {
     opacity: .8; }
 
