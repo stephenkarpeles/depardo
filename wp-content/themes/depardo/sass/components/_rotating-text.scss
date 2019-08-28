@@ -15,6 +15,20 @@
   }
 }
 
+.hero--video .dot-wrapper {
+  @include mq(desktop, 'max-width') {
+    margin-top: 3rem;
+  }
+
+  @include mq(desktop-narrow, 'max-width') {
+    margin-top: 1rem;
+  }
+
+  @include mq(ipad, 'max-width') {
+    margin-top: .6rem;
+  }
+}
+
 .slide-dot {
   height: 8px;
   width: 8px;
