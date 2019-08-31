@@ -29,20 +29,37 @@ get_header();
 
         <section>
           <div class="container container--narrow">
-            <h2 class="color--primary">Say Hello</h2>
-            <p>We would love to hear from you, we’re happy to take your questions. Please fill out the form below to contact us and we will respond to your inquiry as soon as possible</p>
+
+            <?php      
+              $intro = get_field('intro_content'); 
+              if( $intro ): ?>
+
+                <h2 class="color--primary"><?php echo $intro['heading']; ?></h2>
+                <div>
+                  <?php echo $intro['intro_text']; ?>
+                </div>
+
+            <?php endif; ?>
               
             <div class="form-wrap">
               <?php echo do_shortcode('[contact-form-7 id="132" title="Main Contact Form"]'); ?>
             </div>
 
-            <div class="contact-info">
-              <ul>
-                <li>1234 567 890</li>
-                <li>1234 Street Name</li>
-                <li>Perth, WA 60000</li>
-              </ul>
-            </div>
+
+            <?php      
+              $info = get_field('contact_info'); 
+              if( $info ): ?>
+
+                <div class="contact-info">
+                  <ul>
+                    <li><?php echo $info['phone']; ?></li>
+                    <li><?php echo $info['address_line_1']; ?></li>
+                    <li><?php echo $info['address_line_2']; ?></li>
+                  </ul>
+                </div>
+
+            <?php endif; ?>
+
           </div>
         </section>
 
