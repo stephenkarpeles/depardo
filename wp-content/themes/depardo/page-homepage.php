@@ -18,38 +18,52 @@ get_header();
             <video id="videoBG" poster="<?php echo $hero['background_video_poster']['url']; ?>" autoplay muted loop>
               <source src="<?php echo $hero['background_video']['url']; ?>" type="video/mp4">
             </video>
+
             <div class="container slideshow-container">
-              <div class="hero__text rotating-slide fade active-slide" data-variant-content="1">
-                <h1 class="hero__title"><?php echo $hero['heading_1']; ?></h1>
-                <p class="hero__copy"><?php echo $hero['subheading_1']; ?></p>          
-              </div>
 
-              <div class="hero__text rotating-slide fade" data-variant-content="2">
-                <h1 class="hero__title"><?php echo $hero['heading_2']; ?></h1>
-                <p class="hero__copy"><?php echo $hero['subheading_2']; ?></p>          
-              </div>
+              <?php if( have_rows('hero') ): ?>
+                <?php while( have_rows('hero') ): the_row(); 
+                  if( have_rows('slides') ): ?>
+                    <?php 
+                    $i = 1;
+                    while( have_rows('slides') ): the_row();
+                      // vars
+                      $heading = get_sub_field('heading');
+                      $subheading = get_sub_field('subheading');
 
-              <div class="hero__text rotating-slide fade" data-variant-content="3">
-                <h1 class="hero__title"><?php echo $hero['heading_3']; ?></h1>
-                <p class="hero__copy"><?php echo $hero['subheading_3']; ?></p>          
-              </div>
+                      ?>
 
-              <div class="hero__text rotating-slide fade" data-variant-content="4">
-                <h1 class="hero__title"><?php echo $hero['heading_4']; ?></h1>
-                <p class="hero__copy"><?php echo $hero['subheading_4']; ?></p>          
-              </div>
+                      <div class="hero__text rotating-slide fade" data-variant-content="<?php echo $i; ?>">
+                        <h1 class="hero__title"><?php echo $heading; ?></h1>
+                        <p class="hero__copy"><?php echo $subheading; ?></p>          
+                      </div>
 
-              <div class="hero__text rotating-slide fade" data-variant-content="5">
-                <h1 class="hero__title"><?php echo $hero['heading_5']; ?></h1>
-                <p class="hero__copy"><?php echo $hero['subheading_5']; ?></p>          
-              </div>
-
+                    <?php 
+                    $i++;
+                    endwhile; ?>
+                  <?php endif; ?>
+                <?php endwhile; ?>
+              <?php endif; ?>
+         
+            
               <div class="dot-wrapper">
-                <span class="slide-dot active-dot" data-variant-index="1"></span> 
-                <span class="slide-dot" data-variant-index="2"></span> 
-                <span class="slide-dot" data-variant-index="3"></span> 
-                <span class="slide-dot" data-variant-index="4"></span> 
-                <span class="slide-dot" data-variant-index="5"></span> 
+                
+                <?php if( have_rows('hero') ): ?>
+                  <?php while( have_rows('hero') ): the_row(); 
+                    if( have_rows('slides') ): ?>
+                      <?php 
+                      $i = 1;
+                      while( have_rows('slides') ): the_row(); ?>
+
+                        <span class="slide-dot" data-variant-index="<?php echo $i; ?>"></span>  
+
+                      <?php 
+                      $i++;
+                      endwhile; ?>
+                    <?php endif; ?>
+                  <?php endwhile; ?>
+                <?php endif; ?>
+                
               </div>
 
             </div>        

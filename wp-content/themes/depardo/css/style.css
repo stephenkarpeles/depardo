@@ -617,6 +617,7 @@ section {
   height: 8px;
   width: 8px;
   margin: 0 3px;
+  padding: 3px;
   background-color: #939598;
   border-radius: 50%;
   display: inline-block;

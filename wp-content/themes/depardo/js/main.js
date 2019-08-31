@@ -28,7 +28,7 @@ function showSlides() {
   // slides[slideIndex-1].style.display = "block";  
   slides[slideIndex-1].className += " active-slide";
   dots[slideIndex-1].className += " active-dot";
-  setTimeout(showSlides, 6000); // Change image every 2 seconds
+  setTimeout(showSlides, 5500); // Change image every 2 seconds
 }
 
 // grab the elements we need to reference

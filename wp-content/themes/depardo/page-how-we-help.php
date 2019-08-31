@@ -82,11 +82,8 @@ get_header();
                   <h2 class="color--primary"><?php echo $accordion['accordion_left_heading']; ?></h2> 
 
                   <?php if( have_rows('accordion') ): ?>
-
                     <?php while( have_rows('accordion') ): the_row(); 
-
                       if( have_rows('accordion_left') ): ?>
-
                         <?php while( have_rows('accordion_left') ): the_row();
 
                           // vars
@@ -103,11 +100,8 @@ get_header();
                           </div>
 
                         <?php endwhile; ?>
-
                       <?php endif; ?>
-
                     <?php endwhile; ?>
-
                   <?php endif; ?>
 
                 </div>
@@ -117,13 +111,9 @@ get_header();
                   <h2 class="color--primary"><?php echo $accordion['accordion_right_heading']; ?></h2>   
 
                   <?php if( have_rows('accordion') ): ?>
-
                     <?php while( have_rows('accordion') ): the_row(); 
-
                       if( have_rows('accordion_right') ): ?>
-
                         <?php while( have_rows('accordion_right') ): the_row();
-
                           // vars
                           $title = get_sub_field('title');
                           $text = get_sub_field('text');
@@ -138,11 +128,8 @@ get_header();
                           </div>
 
                         <?php endwhile; ?>
-
                       <?php endif; ?>
-
                     <?php endwhile; ?>
-
                   <?php endif; ?>
 
                 </div>

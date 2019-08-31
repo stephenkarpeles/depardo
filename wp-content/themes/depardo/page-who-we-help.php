@@ -55,32 +55,52 @@ get_header();
               </div>
 
               <div class="slideshow-container">
-                <div class="rotating-slide fade active-slide" data-variant-content="1">
-                  <p class="testimonial__text"><?php echo $testimonial['testimonial_text']; ?></p>
-                  <p class="testimonial__author-info"><strong><?php echo $testimonial['testimonial_author_info']; ?></strong></p>          
-                </div>
-                <div class="rotating-slide fade" data-variant-content="2">
-                  <p class="testimonial__text">Etiam suscipit sodales ligula ut egestas. Aliquam libero tortor, ornare at purus vel, ornare aliquam ipsum. Cras ornare ligula neque, id suscipit magna sodales nec. Etiam suscipit sodales ligula ut egestas. Aliquam libero tortor, ornare at purus vel, ornare aliquam ipsum. Cras ornare ligula neque, id suscipit magna sodales nec.</p>
-                  <p class="testimonial__author-info"><strong><?php echo $testimonial['testimonial_author_info']; ?></strong></p>          
-                </div>
-                <div class="rotating-slide fade" data-variant-content="3">
-                  <p class="testimonial__text"><?php echo $testimonial['testimonial_text']; ?></p>
-                  <p class="testimonial__author-info"><strong><?php echo $testimonial['testimonial_author_info']; ?></strong></p>          
-                </div>
-                <div class="rotating-slide fade" data-variant-content="4">
-                  <p class="testimonial__text">Etiam suscipit sodales ligula ut egestas. Aliquam libero tortor, ornare at purus vel, ornare aliquam ipsum. Cras ornare ligula neque, id suscipit magna sodales nec. Etiam suscipit sodales ligula ut egestas. Aliquam libero tortor, ornare at purus vel, ornare aliquam ipsum. Cras ornare ligula neque, id suscipit magna sodales nec.</p>
-                  <p class="testimonial__author-info"><strong><?php echo $testimonial['testimonial_author_info']; ?></strong></p>          
-                </div>
+
+                 <?php if( have_rows('testimonial_section') ): ?>
+                    <?php while( have_rows('testimonial_section') ): the_row(); 
+                      if( have_rows('testimonials') ): ?>
+                        <?php 
+                        $i = 1;
+                        while( have_rows('testimonials') ): the_row();
+                          // vars
+                          $text = get_sub_field('quote_text');
+                          $author = get_sub_field('author_info');
+
+                          ?>
+
+                          <div class="rotating-slide fade" data-variant-content="<?php echo $i; ?>">
+                            <p class="testimonial__text"><?php echo $text; ?></p>
+                            <p class="testimonial__author-info"><strong><?php echo $author; ?></strong></p>          
+                          </div>
+
+                        <?php 
+                        $i++;
+                        endwhile; ?>
+                      <?php endif; ?>
+                    <?php endwhile; ?>
+                  <?php endif; ?>
+
               </div>
 
-              <div class="dot-wrapper dot-wrapper--hidden">
-                <span class="slide-dot active-dot" data-variant-index="1"></span> 
-                <span class="slide-dot" data-variant-index="2"></span> 
-                <span class="slide-dot" data-variant-index="3"></span> 
-                <span class="slide-dot" data-variant-index="4"></span> 
+              <div class="dot-wrapper ">
+
+                <?php if( have_rows('testimonial_section') ): ?>
+                  <?php while( have_rows('testimonial_section') ): the_row(); 
+                    if( have_rows('testimonials') ): ?>
+                      <?php 
+                      $i = 1;
+                      while( have_rows('testimonials') ): the_row(); ?>
+
+                        <span class="slide-dot" data-variant-index="<?php echo $i; ?>"></span>  
+
+                      <?php 
+                      $i++;
+                      endwhile; ?>
+                    <?php endif; ?>
+                  <?php endwhile; ?>
+                <?php endif; ?>
+
               </div>
-
-
 
             </div>
           </section>
