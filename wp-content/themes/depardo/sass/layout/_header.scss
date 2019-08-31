@@ -7,7 +7,7 @@ body.has-open-nav {
       height: 100%;
       width: 100%;
       content: '';
-      background: rgba(black, .8);
+      background: #333;
       z-index: 1000;
     }
   }
@@ -33,7 +33,9 @@ body.has-open-nav {
     }
 
     @include mq(ipad, 'max-width') {
-      margin-top: -.75rem;
+      position: absolute;
+      top: 30px;
+      left: 5%;
     }
   }
 
@@ -96,6 +98,10 @@ body.has-open-nav {
 
 .main-navigation {
   display: block;
+   
+  @include mq(ipad, 'max-width') {
+    width: 100%;
+  }
 }
 
 .main-navigation ul {
@@ -103,7 +109,7 @@ body.has-open-nav {
 
   @include mq(ipad, 'max-width') {
     padding: 0;
-    margin: 2rem 0 0;
+    margin: 100px 0 0;
   }
 }
 
@@ -118,6 +124,7 @@ body.has-open-nav {
   @include mq(ipad, 'max-width') {
     margin: 0 0 .25rem;
     padding: 8px 0 8px 5%;
+    width: 100%;
 
     &:hover {
       background: $primary-color;
@@ -149,12 +156,12 @@ body.has-open-nav {
   cursor: pointer;
   background: transparent;
   border: none; 
-  margin-top: -6px;
   border-radius: none;
   -webkit-appearance: none;
   appearance: none;
-  position: relative;
-  z-index: 9999;
+  right: 5%;
+  top: 35px;
+  position: absolute;
 
   &:focus,
   &:active {
@@ -201,5 +208,6 @@ body.has-open-nav {
     position: absolute;
     left: 0;
     width: 100%;
+    top: 80px;
   }
 }

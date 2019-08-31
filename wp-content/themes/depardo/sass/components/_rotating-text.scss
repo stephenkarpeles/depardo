@@ -2,17 +2,21 @@
   display: none;
 }
 
+.rotating-slide.active-slide {
+  display: block;
+}
+
 .dot-wrapper {
   margin-top: 5rem;
 
-  &--hidden {
-    position: absolute; 
-    overflow: hidden; 
-    clip: rect(0 0 0 0); 
-    height: 1px; 
-    width: 1px; 
-    margin: -1px; padding: 0; border: 0; 
-  }
+  // &--hidden {
+  //   position: absolute; 
+  //   overflow: hidden; 
+  //   clip: rect(0 0 0 0); 
+  //   height: 1px; 
+  //   width: 1px; 
+  //   margin: -1px; padding: 0; border: 0; 
+  // }
 }
 
 .hero--video .dot-wrapper {
@@ -39,7 +43,7 @@
   transition: background-color 0.6s ease;
 }
 
-.slide-dot--is-active {
+.active-dot {
   background-color: transparent;
   border: 1px solid #939598;
   height: 12px;

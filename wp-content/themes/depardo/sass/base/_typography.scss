@@ -28,6 +28,10 @@ ul {
   font-weight: 300;
 }
 
+p + ul {
+  margin-top: 0;
+}
+
 b,
 strong {
   font-weight: 400;

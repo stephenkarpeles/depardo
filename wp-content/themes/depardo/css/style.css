@@ -99,6 +99,9 @@ p {
 ul {
   font-weight: 300; }
 
+p + ul {
+  margin-top: 0; }
+
 b,
 strong {
   font-weight: 400; }
@@ -165,7 +168,7 @@ section {
       height: 100%;
       width: 100%;
       content: '';
-      background: rgba(0, 0, 0, 0.8);
+      background: #333;
       z-index: 1000; } }
 
 .header {
@@ -183,7 +186,9 @@ section {
     width: 134px; }
   @media screen and (max-width: 767px) {
     .header__logo {
-      margin-top: -.75rem; } }
+      position: absolute;
+      top: 30px;
+      left: 5%; } }
   .header__menu {
     color: white;
     font-family: "Quicksand", Helvetica, Arial, sans-serif; }
@@ -225,13 +230,16 @@ section {
 
 .main-navigation {
   display: block; }
+  @media screen and (max-width: 767px) {
+    .main-navigation {
+      width: 100%; } }
 
 .main-navigation ul {
   display: none; }
   @media screen and (max-width: 767px) {
     .main-navigation ul {
       padding: 0;
-      margin: 2rem 0 0; } }
+      margin: 100px 0 0; } }
 
 .main-navigation li {
   list-style-type: none;
@@ -242,7 +250,8 @@ section {
   @media screen and (max-width: 767px) {
     .main-navigation li {
       margin: 0 0 .25rem;
-      padding: 8px 0 8px 5%; }
+      padding: 8px 0 8px 5%;
+      width: 100%; }
       .main-navigation li:hover {
         background: #e55a38; } }
 
@@ -265,12 +274,12 @@ section {
   cursor: pointer;
   background: transparent;
   border: none;
-  margin-top: -6px;
   border-radius: none;
   -webkit-appearance: none;
   appearance: none;
-  position: relative;
-  z-index: 9999; }
+  right: 5%;
+  top: 35px;
+  position: absolute; }
   .menu-toggle:focus, .menu-toggle:active {
     outline: none; }
   .menu-toggle span {
@@ -298,7 +307,8 @@ section {
   .menu-top-navigation-container {
     position: absolute;
     left: 0;
-    width: 100%; } }
+    width: 100%;
+    top: 80px; } }
 
 .footer {
   background: #e6e7e8;
@@ -587,17 +597,11 @@ section {
 .rotating-slide {
   display: none; }
 
+.rotating-slide.active-slide {
+  display: block; }
+
 .dot-wrapper {
   margin-top: 5rem; }
-  .dot-wrapper--hidden {
-    position: absolute;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    width: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0; }
 
 @media screen and (max-width: 1023px) {
   .hero--video .dot-wrapper {
@@ -618,7 +622,7 @@ section {
   display: inline-block;
   transition: background-color 0.6s ease; }
 
-.slide-dot--is-active {
+.active-dot {
   background-color: transparent;
   border: 1px solid #939598;
   height: 12px;
