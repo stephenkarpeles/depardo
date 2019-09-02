@@ -18,24 +18,40 @@
 	<div class="container">
 		<div class="grid">
 			<div class="col col--1-3">
-				<img class="footer__logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logos/logo-red.svg" alt="">
-				<p class="footer__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex.</p>
-				<p><a class="footer__link" href="#">Read More ></a></p>
+				<?php
+					$leftCol = get_field('left_column', 'option');	
+					if( $leftCol ): ?>
+
+					<img class="footer__logo" src="<?php echo $leftCol['logo']['url']; ?>" alt="De Pardo Consulting Logo">
+					<div class="footer__text"><?php echo $leftCol['blurb']; ?></div>
+					<p><a class="footer__link" href="<?php echo $leftCol['link']; ?>"><?php echo $leftCol['link_text']; ?> ></a></p>
+
+				<?php endif; ?>
 			</div>
+
 			<div class="col col--1-3">
 				<h3 class="footer__subhead">/ Recent Posts</h3>
-				<p class="footer__text">
-				  Month 01, 2019<br>
-				  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.
-			  </p>
-			  <p class="footer__text">
-				  Month 01, 2019<br>
-				  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.
-			  </p>
+
+				<?php
+          // The Query
+          $query = new WP_Query( array( 'posts_per_page' => 2 ) );
+          // The Loop
+          while ( $query->have_posts() ) {
+            $query->the_post();
+            get_template_part( 'template-parts/content-footer', get_post_type() );
+          }
+          wp_reset_postdata();
+        ?>
+
 			</div>
+
 			<div class="col col--1-3">
-				<h3 class="footer__subhead">/ Subhead</h3>
-				<p class="footer__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+				<?php
+					$rightCol = get_field('right_column', 'option');	
+					if( $rightCol ): ?>
+						<h3 class="footer__subhead">/ <?php echo $rightCol['heading']; ?></h3>
+						<div class="footer__text"><?php echo $rightCol['blurb']; ?></div>
+				<?php endif; ?>
 			</div>
 		</div>
 	</div>

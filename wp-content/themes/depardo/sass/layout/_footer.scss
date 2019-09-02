@@ -16,6 +16,7 @@
   &__text {
     color: $gray-main;
     font-size: .825rem;
+    padding-bottom: 1.25rem;
   }
 
   &__logo {
@@ -32,6 +33,22 @@
 
     &:hover {
       color: lighten($gray-main, 10%);
+    }
+  }
+
+  .footer-post {
+    font-weight: 300;
+
+    &__title a {
+      font-weight: 400;
+    }
+
+    &__excerpt a {
+      font-weight: 300;
+      
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }

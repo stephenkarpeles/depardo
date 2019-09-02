@@ -322,7 +322,8 @@ section {
     color: #e55a38; }
   .footer__text {
     color: #58595b;
-    font-size: .825rem; }
+    font-size: .825rem;
+    padding-bottom: 1.25rem; }
   .footer__logo {
     width: 120px;
     margin-bottom: 1.25rem; }
@@ -334,6 +335,14 @@ section {
     transition: color .15s ease; }
     .footer a:hover {
       color: #717275; }
+  .footer .footer-post {
+    font-weight: 300; }
+    .footer .footer-post__title a {
+      font-weight: 400; }
+    .footer .footer-post__excerpt a {
+      font-weight: 300; }
+      .footer .footer-post__excerpt a:hover {
+        text-decoration: underline; }
 
 .featured-block {
   background-size: cover;
@@ -602,6 +611,8 @@ section {
 
 .dot-wrapper {
   margin-top: 5rem; }
+  .testimonial .dot-wrapper {
+    margin-top: 3rem; }
 
 @media screen and (max-width: 1023px) {
   .hero--video .dot-wrapper {

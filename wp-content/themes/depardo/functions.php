@@ -166,3 +166,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 /* Disable WordPress Admin Bar for all users */
 show_admin_bar(false);
 
+/* Add ACF Options page functionality */
+if( function_exists('acf_add_options_page') ) {	
+	acf_add_options_page();	
+}
